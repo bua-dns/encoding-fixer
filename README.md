@@ -15,57 +15,31 @@ Typical cause: UTF-8 bytes misinterpreted as Latin-1 / Windows-1252.
     [`iconv-lite`](https://www.npmjs.com/package/iconv-lite) for
     decoding
 
-## Usage
+## Installation
 
-### 1. Install dependencies
+### Using npm
 
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-npm
-```{=html}
-</summary>
-```
 ``` bash
 npm install
 ```
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
-pnpm
-```{=html}
-</summary>
-```
+### Using pnpm
+
 ``` bash
 pnpm install
 ```
 
-```{=html}
-</details>
-```
-### 2. Prepare input
+## Usage
 
-Put your text files into the `input` folder.
+1.  Put your text files into the `input` folder.\
 
-### 3. Run the script
+2.  Run the script:
 
-``` bash
-node fix-latin-1-to-utf-8.js
-```
+    ``` bash
+    node fix-latin-1-to-utf-8.js
+    ```
 
-### 4. Collect output
-
-Corrected UTF-8 files will be written into the `output` folder.
+3.  Corrected UTF-8 files will be written into the `output` folder.
 
 ## Example
 
